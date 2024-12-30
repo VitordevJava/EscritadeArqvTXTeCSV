@@ -38,9 +38,13 @@ Execute a classe principal do projeto.
 
 EscritadeArqvTXTeCSV/
 ├── TxtExcelJSON/
+
 │   ├── LerArquiv.java     # Classe para leitura de arquivos TXT
+
 │   ├── EscreverArquivo.java # Classe para escrita de arquivos TXT
+
 │   ├── Pessoa.java        # Classe modelo para representação de dados
+
 │   └── arquivo.txt        # Exemplo de arquivo de entrada
 
 
