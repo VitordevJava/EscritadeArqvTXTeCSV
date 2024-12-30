@@ -1,80 +1,76 @@
-Projeto: Escrita e Leitura de Arquivos TXT e CSV
+# Escrita e Leitura de Arquivos TXT e CSV
 
-Este repositório contém um projeto Java que demonstra a leitura e escrita de arquivos nos formatos TXT e CSV, além de realizar manipulações básicas de dados. Ele é útil para quem deseja aprender ou aprimorar conhecimentos sobre manipulação de arquivos utilizando a linguagem Java.
+Este repositório contém um projeto que demonstra como realizar operações básicas de escrita e leitura de arquivos nos formatos **TXT** e **CSV** utilizando a linguagem Java. Ele foi desenvolvido como parte de um estudo sobre manipulação de arquivos em Java, explorando conceitos como leitura com `Scanner`, escrita com `FileWriter` e organização de dados em listas.
 
-Funcionalidades
+## 📋 Funcionalidades
 
-Leitura de arquivos TXT com dados estruturados.
+- Leitura de arquivos **TXT**:
+  - Processamento de dados estruturados por delimitadores (ex.: `;`).
+  - Conversão de informações lidas em objetos de uma classe específica.
+  
+- Escrita em arquivos **TXT**:
+  - Geração de arquivos com dados estruturados em formato legível.
 
-Escrita de dados em arquivos TXT e CSV.
+- Leitura e escrita de arquivos **CSV**:
+  - Utilização de separadores padrão para CSV (ex.: `,`).
+  - Criação de arquivos compatíveis com editores como Excel.
 
-Manipulação e armazenamento de informações utilizando listas e classes Java.
+## 🚀 Tecnologias utilizadas
 
-Tratamento de exceções durante operações de I/O (Entrada e Saída).
+- **Java**: Linguagem principal do projeto.
+- **Classes principais**:
+  - `File`
+  - `FileWriter`
+  - `Scanner`
 
-Organização dos dados lidos em objetos do tipo Pessoa.
+## 🛠️ Como executar o projeto
 
-Tecnologias Utilizadas
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/VitordevJava/EscritadeArqvTXTeCSV.git
+Importe o projeto em sua IDE favorita (ex.: Eclipse ou IntelliJ).
 
-Java 8+ - Linguagem de programação principal.
+Certifique-se de que o arquivo de entrada esteja localizado no diretório especificado pelo código.
 
-Eclipse IDE - Ambiente de desenvolvimento utilizado no projeto.
+Execute a classe principal do projeto.
 
-Biblioteca Scanner - Para leitura de arquivos.
+## 📂 Estrutura do projeto
 
-API FileInputStream e FileOutputStream - Para manipulação de arquivos.
+EscritadeArqvTXTeCSV/
+├── TxtExcelJSON/
+│   ├── LerArquiv.java     # Classe para leitura de arquivos TXT
+│   ├── EscreverArquivo.java # Classe para escrita de arquivos TXT
+│   ├── Pessoa.java        # Classe modelo para representação de dados
+│   └── arquivo.txt        # Exemplo de arquivo de entrada
 
-Como Executar o Projeto
 
-Clone o repositório:
-
-git clone https://github.com/VitordevJava/EscritadeArqvTXTeCSV.git
-
-Abra o projeto em uma IDE compatível (recomendado: Eclipse ou IntelliJ IDEA).
-
-Compile o código-fonte.
-
-Execute o programa principal localizado no arquivo LerArquiv.java.
-
-Certifique-se de incluir o arquivo arquivo.txt no diretório especificado no código, ou altere o caminho conforme necessário.
-
-Formato Esperado do Arquivo TXT/CSV
-
-Exemplo de conteúdo esperado no arquivo arquivo.txt:
+## 📝 Exemplo de uso
+Arquivo de entrada (arquivo.txt):
 
 João;joao@email.com;25
 Maria;maria@email.com;30
 Pedro;pedro@email.com;22
 
-Cada linha contém os dados de uma pessoa, separados por ponto e vírgula (;).
 
-Exemplo de Saída no Console
+# Saída esperada no console:
 
 Nome: João, Email: joao@email.com
 Nome: Maria, Email: maria@email.com
 Nome: Pedro, Email: pedro@email.com
 
-Estrutura do Projeto
 
-TxtExcelJSON/
-├── src/
-│   ├── LerArquiv.java
-│   ├── Pessoa.java
-├── arquivo.txt
-├── README.md
+## 📖 Aprendizados
+Este projeto é ideal para quem deseja entender os fundamentos da manipulação de arquivos em Java, como:
 
-LerArquiv.java - Código responsável por ler e processar os dados do arquivo.
+Manipulação de streams de arquivos.
+Organização de dados em objetos.
+Estruturação de dados para exportação.
+## 🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um Pull Request com sugestões ou melhorias.
 
-Pessoa.java - Classe que representa o modelo de dados para armazenar as informações lidas.
+## 🧑‍💻 Autor
+Desenvolvido por João Vitor Soares de Carvalho.
 
-arquivo.txt - Arquivo de exemplo contendo os dados utilizados para testes.
+GitHub: [https://github.com/VitordevJava/]
+LinkedIn: [https://www.linkedin.com/in/vitorcrv/]
 
-README.md - Documentação do projeto.
-
-Licença
-
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
-
-Autor
-
-João Vitor Soares de Carvalho - GitHub | LinkedIn
